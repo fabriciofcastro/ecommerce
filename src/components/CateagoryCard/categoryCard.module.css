@@ -1,0 +1,13 @@
+.category_card {
+  display: flex;
+  border: .1rem solid #b5c8d0;
+  padding: 1.6rem;
+  width: 20rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.category_name {
+  color: #b5c0d0;
+  text-transform: uppercase;
+}

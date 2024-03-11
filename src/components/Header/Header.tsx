@@ -18,10 +18,12 @@ export const Header = () => {
           <TbSearch />
         </div>
 
-        <div className={style.cart}>
-          <TbShoppingCart className={style.cart_icon} />
-          <span>0</span>
-        </div>
+        <Link to="/cart">
+          <div className={style.cart}>
+            <TbShoppingCart className={style.cart_icon} />
+            <span>0</span>
+          </div>
+        </Link>
       </div>
     </div>
   )

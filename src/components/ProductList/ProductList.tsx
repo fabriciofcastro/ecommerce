@@ -5,6 +5,9 @@ const ProductList = () => {
   return (
     <div className={style.product_list}>
       <ProductCard />
+      <ProductCard />
+      <ProductCard />
+      <ProductCard />
     </div>
   )
 }

@@ -5,6 +5,10 @@ const CategoryList = () => {
   return (
     <div className={style.category_list}>
       <CategorCard />
+      <CategorCard />
+      <CategorCard />
+      <CategorCard />
+      
     </div>
   )
 }
