@@ -8,7 +8,6 @@ const CategoryList = () => {
       <CategorCard />
       <CategorCard />
       <CategorCard />
-      
     </div>
   )
 }

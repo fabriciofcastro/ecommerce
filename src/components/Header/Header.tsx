@@ -7,14 +7,14 @@ export const Header = () => {
     <div className={style.header}>
       <Link to="/">
         <div className={style.logo}>
-          <h2>Spoilr</h2>
+          <h2>Shopping Legal</h2>
           <TbShoppingBagSearch className={style.icon} />
         </div>
       </Link>
 
       <div className={style.right_side}>
         <div className={style.search_input}>
-          <input type="text" placeholder="Search" />
+          <input type="text" placeholder="Pesquisa" />
           <TbSearch />
         </div>
 

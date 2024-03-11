@@ -1,13 +1,14 @@
 import { TbPlus } from 'react-icons/tb'
 import style from './productCard.module.css'
-const ProductCard = () => {
+
+const ProductCard = ({ product }) => {
   return (
     <div className={style.card_container}>
       <div className={style.card_image}>
-        <img src="" alt="Image do produto" />
+        <img src={product} alt="Image do produto" />
       </div>
       <div className={style.card_detail}>
-        <h4 className={style.title}>Aqui é o título</h4>
+        <h4 className={style.title}>{product.title}</h4>
         <div className={style.card_category}>CATEGORIA</div>
 
         <div className={style.card_flex}>
