@@ -1,5 +1,6 @@
 import style from './cartContainer.module.css'
 import Items from './Items'
+import Summary from './Summary'
 
 const CartContainer = () => {
   return (
@@ -9,12 +10,10 @@ const CartContainer = () => {
         <div className={style.cart_items}>
           <div className={style.cart_items}>
             <Items />
-            </div>
+          </div>
         </div>
-        <div className={style.summary}></div>
+        <Summary />
       </div>
-     
-  
     </div>
   )
 }
